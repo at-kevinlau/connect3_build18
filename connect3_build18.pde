@@ -42,6 +42,11 @@ void setup()
   Button b4 = new Button(w_percent(.80),h_percent(.020),w_percent(.15),h_percent(.04));
   renderables.add(b4);
   updatables.add(b4);
+  
+  // Board
+  Board board = new Board(10, 10, 200, 200);
+  renderables.add(board);
+  updatables.add(board);
 }
 
 void draw()

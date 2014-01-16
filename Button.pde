@@ -1,9 +1,9 @@
 class Button implements Updatable, Renderable
 {
-  int x, y, w, h;
-  color baseColor, hoverColor, clickColor, currentColor;
+  private int x, y, w, h;
+  private color baseColor, hoverColor, clickColor, currentColor;
   
-  boolean selected; 
+  private boolean selected; 
   
   Button(int x, int y, int w, int h)
   {
